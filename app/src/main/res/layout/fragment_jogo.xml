@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.JogoFragment"
+    android:background="@color/cinzaClaro"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/jogador1"
+            android:textColor="@color/azulClaro"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/placarJog1"
+            android:layout_width="match_parent"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/placarjog1"
+            android:textColor="@color/azulClaro"
+
+            />
+
+
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="5dp"
+    android:background="@color/rosaClaro"
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/jogador2"
+        android:textColor="@color/azulClaro"
+
+        />
+
+    <TextView
+        android:id="@+id/placarJog2"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/placarjog2"
+        android:textColor="@color/azulClaro"
+
+        />
+
+</LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt00"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+            </Button>
+            <Button
+                android:id="@+id/bt01"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+            </Button>
+            <Button
+                android:id="@+id/bt02"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+            </Button>
+
+
+
+        </TableRow>
+
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt10"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+            </Button>
+            <Button
+                android:id="@+id/bt11"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+            </Button>
+            <Button
+                android:id="@+id/bt12"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+            </Button>
+
+
+
+        </TableRow>
+
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt20"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+            </Button>
+            <Button
+                android:id="@+id/bt21"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+            </Button>
+            <Button
+                android:id="@+id/bt22"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+            </Button>
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
